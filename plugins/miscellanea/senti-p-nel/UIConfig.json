@@ -1,0 +1,57 @@
+{
+  "page": {
+    "label": "Twitter Configuration"
+  },
+  "sections": [
+   {
+      "id": "section_account",
+      "element": "section",
+      "label": "Twitter account",
+      "icon": "fa-plug",
+      "onSave": {"type":"controller", "endpoint":"miscellanea/senti-p-nel", "method":"saveTwitterAccount"},
+      "saveButton": {
+        "label": "Save",
+        "data": [
+            "consumer_key",
+            "consumer_secret",
+            "access_token_key",
+            "access_token_secret"
+        ]
+      },
+      "content": [
+        {
+          "id": "consumer_key",
+          "type":"text",
+          "element": "input",
+          "doc": "This is the username of your Spotify account",
+          "label": "Consumer key",
+          "value": ""
+        },
+        {
+          "id": "consumer_secret",
+          "type":"text",
+          "element": "input",
+          "doc": "This is the password of your Spotify account",
+          "label": "Consumer secret",
+          "value": ""
+        },
+        {
+          "id": "access_token_key",
+          "type":"text",
+          "element": "input",
+          "doc": "This is the password of your Spotify account",
+          "label": "Access token key",
+          "value": ""
+        },
+        {
+          "id":"access_token_secret",
+          "element": "text",
+          "elment": "input",
+          "doc": "",
+          "label": "Access token secret",
+          "value": "" 
+        }
+      ]
+   }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"name": "senti-p-nel",
+	"version": "1.0.0",
+	"description": "Tweet your local IP at every boot",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Cosmita",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "Senti-p-nel",
+		"icon": "fa-lightbulb-o",
+		"plugin_type": "miscellanea"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"v-conf": "^1.4.0",
+        "is-online": "^7.0.0", 
+		"twitter": "^1.7.1"
+	}
+}

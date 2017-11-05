@@ -1,0 +1,18 @@
+{
+  "consumer_key" : {
+    "type": "string",
+    "value": ""
+  },
+  "consumer_secret" : {   
+    "type": "string",
+    "value": ""
+  },
+  "access_token_key" : {
+    "type": "string",
+    "value": ""
+  },
+  "access_token_secret" : { 
+    "type": "string",
+    "value": ""
+  }
+}
